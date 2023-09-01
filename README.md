@@ -1,5 +1,4 @@
 # ContactApp with MinimalAPI
-<h2>ContactApp with Minimal APIs</h2>
 <p>ASP.NET Core 7.0 - Minimal API Example - ContactApp API implementation using ASP.NET Core Minimal API, Entity Framework Core, Microsoft SQL Server and Open API.</p>
 
 <h2>Topics</h2>
@@ -20,7 +19,7 @@
 </ul>
 
 <p align="center">
-  <img src="https://github.com/Aronno1920/ContactAppMinimalAPI/blob/main/Img/Screenshot_1.png" width="350" title="Project Creation">
+  <img src="https://github.com/Aronno1920/ContactAppMinimalAPI/blob/main/Img/Screenshot_1.png" title="Project Creation">
 </p>
 
 
