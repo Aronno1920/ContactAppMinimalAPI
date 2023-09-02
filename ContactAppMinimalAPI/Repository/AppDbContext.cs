@@ -5,7 +5,8 @@ namespace ContactAppMinimalAPI.Repository
 {
     public class AppDbContext : DbContext
     {
-        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) {
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
+        {
         }
 
         public DbSet<Contact> Contacts { get; set; }
@@ -21,6 +22,5 @@ namespace ContactAppMinimalAPI.Repository
             var connectionString = configuration.GetConnectionString("DefaultConnection");
             optionsBuilder.UseSqlServer(connectionString);
         }
-
     }
 }
